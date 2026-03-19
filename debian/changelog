@@ -1,0 +1,5 @@
+demo-cabra (0.1.0-1) unstable; urgency=medium
+
+  * Initial packaging for Debian.
+
+ -- FruitCode Apple <maintainer@example.com>  Thu, 19 Mar 2026 05:56:00 +0000

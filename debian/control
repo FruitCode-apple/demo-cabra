@@ -1,0 +1,23 @@
+Source: demo-cabra
+Section: devel
+Priority: optional
+Maintainer: FruitCode Apple <maintainer@example.com>
+Build-Depends: debhelper-compat (= 13),
+               dh-golang,
+               golang-any,
+               golang-github-spf13-cobra-dev (>= 1.8.0)
+Standards-Version: 4.6.2
+Homepage: https://github.com/FruitCode-apple/demo-cabra
+XS-Go-Import-Path: github.com/FruitCode-apple/demo-cabra
+
+Package: demo-cabra
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Cobra CLI demo for Debian development
+ demo-cabra is a small demonstration CLI application that shows how to
+ build a Go project using the github.com/spf13/cobra library
+ (golang-github-spf13-cobra-dev) in a Debian/Ubuntu environment.
+ .
+ It provides two example subcommands:
+  * greet  – print a personalised greeting with optional flags
+  * version – print build and runtime version information
