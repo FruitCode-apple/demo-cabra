@@ -1,0 +1,16 @@
+# compiled binary
+demo-cabra
+
+# Go build cache
+*.test
+*.out
+
+# Vendor directory (generated on demand)
+vendor/
+
+# Debian build artifacts
+../*.deb
+../*.changes
+../*.buildinfo
+../*.dsc
+../*.tar.*
